@@ -1,5 +1,5 @@
 
-class githob {
+class github {
     constructor(){
     this.name = "LaunchX"
     this.author =  "carlogilmar"
@@ -18,13 +18,13 @@ getTotalIssues(){
   }
 
 }
-const repo = new githob ()
+const repo = new github ()
 console.log("Nombre del repo:" + repo.name)
 console.log("Issues totales: " + repo.getTotalIssues())
 console.log(repo.getGeneralInfo())
 
 
-class githob_issue {
+class github_issue {
     constructor(){
     this.title = '06 Live 3 Semana 2'
     this.repositoryNameAssociated = 'MissionNodeJS'
@@ -45,12 +45,12 @@ class githob_issue {
     }
 }
 
-const issue = new githob_issue()
+const issue = new github_issue()
 console.log(`"The issue data are:"`)
 console.log(issue.getTitleAndAuthor())
 console.log(issue.getGeneralInfo())
 
-class githob_pullrequest {
+class github_pullrequest {
     constructor(){
         this.branchName = 'Enviando el blog'
         this.dateCreated = '6 April'
@@ -67,7 +67,7 @@ class githob_pullrequest {
         }
     
     }
-const pull_request = new githob_pullrequest()
+const pull_request = new github_pullrequest()
 console.log('The Pull request data are:')
 console.log("The status is "+ pull_request.getStatus())
 console.log(pull_request.getTitleAndAutor2())
